@@ -89,7 +89,4 @@ Explanation: A psychological thriller directed by Martin Scorsese...
 - HuggingFace Transformers (LLMs & embeddings)
 - PyTorch (backend framework)
 
-🔮 Future Improvements
-- Add re-ranking using cross-encoders for better accuracy
-- Implement Streamlit UI for interactive recommendations
-- Extend dataset with user ratings & collaborative filtering
+---
