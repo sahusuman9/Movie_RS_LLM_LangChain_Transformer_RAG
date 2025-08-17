@@ -50,19 +50,19 @@ pip install transformers langchain faiss-cpu
 🏗️ Project Workflow
 
 1. Preprocessing
-  Combine movie details into Metatext for richer embeddings.
-  Add unique movie_id for indexing.
+  -Combine movie details into Metatext for richer embeddings.
+  -Add unique movie_id for indexing.
 
 2.Embeddings
-  Use E5 multilingual small model for document embeddings.
-  Batched embedding for efficiency.
+  -Use E5 multilingual small model for document embeddings.
+  -Batched embedding for efficiency.
 
 3. Vector Store
-  Store embeddings in FAISS for similarity search.
-  Retrieval + QA
+  -Store embeddings in FAISS for similarity search.
+  -Retrieval + QA
 
 4. RetrievalQA chain combines FAISS retriever + Flan-T5 model.
-  Natural language queries return top-k recommended movies with explanations.
+  -Natural language queries return top-k recommended movies with explanations.
 
 # Query the system
 recommender = AdvancedRecommender(vector_store, qa_chain)
@@ -82,14 +82,14 @@ Example Output:
 Explanation: A psychological thriller directed by Martin Scorsese...
 
 📊 Tech Stack
-Python
-Pandas / NumPy (data processing)
-FAISS (vector search)
-LangChain (retrieval pipeline)
-HuggingFace Transformers (LLMs & embeddings)
-PyTorch (backend framework)
+-Python
+-Pandas / NumPy (data processing)
+-FAISS (vector search)
+-LangChain (retrieval pipeline)
+-HuggingFace Transformers (LLMs & embeddings)
+-PyTorch (backend framework)
 
 🔮 Future Improvements
-Add re-ranking using cross-encoders for better accuracy
-Implement Streamlit UI for interactive recommendations
-Extend dataset with user ratings & collaborative filtering
+-Add re-ranking using cross-encoders for better accuracy
+-Implement Streamlit UI for interactive recommendations
+-Extend dataset with user ratings & collaborative filtering
