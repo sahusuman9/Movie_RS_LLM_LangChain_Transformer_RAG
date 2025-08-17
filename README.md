@@ -73,9 +73,11 @@ recommendations = recommender.recommend(
 
 🖥️ Example Usage
 # Display results
+```bash
 for i, rec in enumerate(recommendations):
     print(f"\n{i+1}. {rec['title']} ({rec['year']}) - IMDB {rec['rating']}")
     print(f"Explanation: {rec['explanation']}")
+```
 
 Example Output:
 1. Shutter Island (2010) - IMDB 8.2
