@@ -80,8 +80,10 @@ for i, rec in enumerate(recommendations):
 ```
 
 Example Output:
+```bash
 1. Shutter Island (2010) - IMDB 8.2
 Explanation: A psychological thriller directed by Martin Scorsese...
+```
 
 📊 Tech Stack
 - Python
