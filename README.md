@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System with LangChain + HuggingFace
+# 🎬 Movie Recommender System with LangChain + HuggingFace + RAG
 
 ## 📌 Overview  
 This project implements a **movie recommender system** that combines:  
