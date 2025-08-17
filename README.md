@@ -53,7 +53,7 @@ pip install transformers langchain faiss-cpu
   - Combine movie details into Metatext for richer embeddings.
   - Add unique movie_id for indexing.
 
-2.Embeddings
+2. Embeddings
   - Use E5 multilingual small model for document embeddings.
   - Batched embedding for efficiency.
 
